@@ -65,7 +65,7 @@ header nav li a:visited {
 
 header nav li a:hover {
   background-color: #086969;
- /*  color: rgb(238, 234, 234); */
+  /*  color: rgb(238, 234, 234); */
 }
 
 
@@ -93,17 +93,17 @@ h4 {
   font-style: normal;
 }
 
-main{
+main {
   min-height: 600px;
-  padding: 20px   ;
+  padding: 20px;
 
 }
 
 
-footer{
+footer {
   padding: 20px;
   background-color: #097c7c;
-  
+
 }
 
 
@@ -139,18 +139,18 @@ footer nav li a:hover {
   margin-right: 30px;
 }
 
-.destaques{
+.destaques {
   width: 50%;
   padding: 10px;
   background-color: #063131;
   border: 3px solid #063131
 }
 
-.destaques a{
+.destaques a {
   margin: 20px;
 }
 
-.destaques h3{
+.destaques h3 {
   color: #ffffff;
 }
 
@@ -171,7 +171,7 @@ footer nav li a:hover {
 
 }
 
-#whatsmensagem{
+#whatsmensagem {
 
   width: 260px;
   position: fixed;
@@ -182,4 +182,32 @@ footer nav li a:hover {
   display: none;
 
 
+}
+
+.teste-menu-responsivo {
+
+  padding: 10px;
+
+  background-color: #7aecec;
+
+  display: none;
+}
+
+/* comportamento do menu no celular */
+
+@media screen and (max-width:600px) {
+
+
+  /* no celular oculta menu horizontal  */
+
+  header nav {
+    display: none;
+  }
+
+
+
+  /* exibe o menu do celular  */
+  .teste-menu-responsivo {
+    display: block;
+  }
 }
